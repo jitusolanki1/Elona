@@ -41,7 +41,7 @@ class TargetListScreen extends StatelessWidget {
                       Container(
                         padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                         decoration: BoxDecoration(
-                          color: AppColors.primary.withOpacity(0.1),
+                          color: AppColors.primary.withAlpha(25),
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: Text(

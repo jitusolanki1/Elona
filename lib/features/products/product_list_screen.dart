@@ -108,7 +108,7 @@ class ProductListScreen extends StatelessWidget {
                   onSelected: (selected) {
                     provider.setSelectedCategory(category);
                   },
-                  selectedColor: AppColors.primary.withOpacity(0.2),
+                  selectedColor: AppColors.primary.withAlpha(51),
                   labelStyle: TextStyle(
                     color: isSelected ? AppColors.primary : AppColors.textSecondary,
                     fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
@@ -151,7 +151,7 @@ class ProductListScreen extends StatelessWidget {
                 child: Icon(
                   Icons.inventory_2,
                   size: 50,
-                  color: AppColors.primary.withOpacity(0.3),
+                  color: AppColors.primary.withAlpha(76),
                 ),
               ),
             ),

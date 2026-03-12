@@ -65,7 +65,7 @@ class SettingsScreen extends StatelessWidget {
           Container(
             padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
             decoration: BoxDecoration(
-              color: AppColors.info.withOpacity(0.1),
+              color: AppColors.info.withAlpha(25),
               borderRadius: BorderRadius.circular(16),
             ),
             child: Text(

@@ -205,7 +205,7 @@ class _CollectPaymentScreenState extends State<CollectPaymentScreen> {
                       _selectedMode = mode;
                     });
                   },
-                  selectedColor: AppColors.primary.withOpacity(0.2),
+                  selectedColor: AppColors.primary.withAlpha(51),
                   labelStyle: TextStyle(
                     color: isSelected ? AppColors.primary : AppColors.textSecondary,
                     fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,

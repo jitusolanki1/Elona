@@ -44,7 +44,7 @@ class ExpenseListScreen extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                     decoration: BoxDecoration(
-                      color: _getStatusColor(expense.status).withOpacity(0.1),
+                      color: _getStatusColor(expense.status).withAlpha(25),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Text(

@@ -126,7 +126,7 @@ class _AddCustomerScreenState extends State<AddCustomerScreen> {
                       ),
                       SizedBox(height: 16),
                       DropdownButtonFormField<String>(
-                        value: _selectedCustomerType,
+                        initialValue: _selectedCustomerType,
                         decoration: InputDecoration(
                           labelText: 'Customer Type *',
                           border: OutlineInputBorder(

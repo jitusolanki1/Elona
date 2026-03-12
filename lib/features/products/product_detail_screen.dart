@@ -41,7 +41,7 @@ class ProductDetailScreen extends StatelessWidget {
         child: Icon(
           Icons.inventory_2,
           size: 100,
-          color: AppColors.primary.withOpacity(0.3),
+          color: AppColors.primary.withAlpha(76),
         ),
       ),
     );
@@ -57,7 +57,7 @@ class ProductDetailScreen extends StatelessWidget {
           Container(
             padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
             decoration: BoxDecoration(
-              color: AppColors.info.withOpacity(0.1),
+              color: AppColors.info.withAlpha(25),
               borderRadius: BorderRadius.circular(4),
             ),
             child: Text(
@@ -249,7 +249,7 @@ class ProductDetailScreen extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
               decoration: BoxDecoration(
-                color: AppColors.error.withOpacity(0.1),
+                color: AppColors.error.withAlpha(25),
                 borderRadius: BorderRadius.circular(4),
               ),
               child: Text(
@@ -305,7 +305,7 @@ class ProductDetailScreen extends StatelessWidget {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withAlpha(25),
             blurRadius: 10,
             offset: Offset(0, -2),
           ),

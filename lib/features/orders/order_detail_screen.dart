@@ -72,7 +72,7 @@ class OrderDetailScreen extends StatelessWidget {
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 decoration: BoxDecoration(
-                  color: statusColor.withOpacity(0.1),
+                  color: statusColor.withAlpha(25),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
@@ -203,7 +203,7 @@ class OrderDetailScreen extends StatelessWidget {
               color: AppColors.background,
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Icon(Icons.inventory_2, color: AppColors.primary.withOpacity(0.5)),
+            child: Icon(Icons.inventory_2, color: AppColors.primary.withAlpha(127)),
           ),
           SizedBox(width: 12),
           Expanded(

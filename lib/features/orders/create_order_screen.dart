@@ -216,7 +216,7 @@ class _CreateOrderScreenState extends State<CreateOrderScreen> {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withAlpha(25),
             blurRadius: 10,
             offset: Offset(0, -2),
           ),
