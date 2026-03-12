@@ -1,0 +1,60 @@
+name: elona_sfa
+description: A comprehensive Sales Force Automation and Field Sales Management application
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # UI Components
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+
+  # Charts
+  fl_chart: ^0.65.0
+
+  # Navigation
+  go_router: ^12.1.3
+
+  # Maps & Location
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+
+  # Icons
+  font_awesome_flutter: ^10.6.0
+
+  # Date/Time
+  intl: ^0.18.1
+
+  # Forms
+  flutter_form_builder: ^9.1.1
+
+  # Image Picker
+  image_picker: ^1.0.5
+
+  # Storage
+  shared_preferences: ^2.2.2
+
+  # UUID
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
